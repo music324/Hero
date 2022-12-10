@@ -45,8 +45,8 @@
     },
     "SUPPORT_GROUP": {
       "description": "Support Group Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "Alisha_Support",
-      "required": false
+      "value": "Super_Star_Singing_Group",
+      "required": true
     },
     "OWNER_ID": {
       "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
