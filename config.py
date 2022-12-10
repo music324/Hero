@@ -30,13 +30,13 @@ if str(getenv("SUPPORT_CHANNEL")).strip() == "https://t.me/StarbotUpdate":
     SUPPORT_CHANNEL = None
 else:
     SUPPORT_CHANNEL = str(getenv("SUPPORT_CHANNEL"))
-if str(getenv("SUPPORT_GROUP")).strip() == "":
+if str(getenv("SUPPORT_GROUP")).strip() == "https://t.me/StarbotUpdate":
     SUPPORT_GROUP = None
 else:
     SUPPORT_GROUP = str(getenv("SUPPORT_GROUP", "https://t.me/Super_Star_Singing_Group"))
 
 
-if str(getenv("STRING_SESSION1")).strip() == "":
+if str(getenv("STRING_SESSION1")).strip() == "BQCJTBg1sbcfHx72hZNAXEQG92xbTKlcgLEyuLaCsdV4S_hm-ZIERpHWSdqu9OZzGM6maHS_1BU0vlsfZwAJlQphVqa-yObkiCbYia0BN_SegZ_oyS51pwb1_pZ38JckUCCxitzV-oxMQtP-NR_ubWyAFHYuK5c7dyP42dEG-HvlYOh_CuusLrBt_HGuWEc_iWO_USBc-C_wpnVgsMVPCsQlygEScizEGVrAwjY5qh_ALjMJRNw9EW73HJljiTGdlp54LR4En1kktTHryZYgWZNhcinTxTkE1YKNSqMjJUm9CE5tjBp37dB7cMNNja2Jsjy3eNq4dP7evipoyfgpzJyWAAAAAU7bqnUA":
     STRING1 = str(None)
 else:
     STRING1 = str(getenv("STRING_SESSION1"))
